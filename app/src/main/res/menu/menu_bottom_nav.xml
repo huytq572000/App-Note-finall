@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/bottom_ghichu"
+    android:title="@string/nav_ghi_chu"
+    android:icon="@drawable/ic_ghi_chu"/>
+    <item android:id="@+id/bottom_loinhac"
+        android:title="@string/nav_loi_nhac"
+        android:icon="@drawable/ic_loinhac"/>
+    <item android:id="@+id/bottom_thungrac"
+        android:title="@string/nav_thung_rac"
+        android:icon="@drawable/ic_thung_rac"/>
+    <item android:id="@+id/bottom_search"
+        android:title="@string/nav_search"
+        android:icon="@drawable/ic_search"/>
+</menu>

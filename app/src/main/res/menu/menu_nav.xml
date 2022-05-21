@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<!--    <item android:id="@+id/action_menu"-->
+<!--        android:title=""-->
+<!--        android:icon="@drawable/ic_grid"-->
+<!--        app:showAsAction="always"/>-->
+<group android:checkableBehavior="single">
+    <item android:id="@+id/nav_ghi_chu"
+        android:title="@string/nav_ghi_chu"
+        android:icon="@drawable/ic_ghi_chu"/>
+    <item android:id="@+id/nav_loi_nhac"
+        android:title="@string/nav_loi_nhac"
+        android:icon="@drawable/ic_loinhac"/>
+    <item android:id="@+id/nav_thung_rac"
+        android:title="@string/nav_thung_rac"
+        android:icon="@drawable/ic_thung_rac"/>
+    <item android:id="@+id/nav_search"
+        android:title="@string/nav_search"
+        android:icon="@drawable/ic_search"/>
+</group>
+
+</menu>
